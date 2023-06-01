@@ -1,0 +1,299 @@
+
+@media screen and (min-width: 370px){
+.pattern1{
+    display: none;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-left: -6em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0em;
+    height: 100%;
+    width: 100%;
+    background-image: url(/img/bg-main-mobile.png);
+    background-position-x: -1em;
+    background-position-y: -13em;
+    background-repeat: no-repeat;
+}
+            
+header{
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+}
+.Logo{
+    position: absolute;
+    margin: 2em 0em 0em 1.5em;
+    height: 2em;
+    width: auto;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7em 1.3em 0em 1.3em;
+}
+.mainText{
+    font-size: 2.7em;
+    font-weight: 700;
+}
+.section1 p{
+    font-weight: 400 ;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+.section2{
+    margin-top: 10em;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.phone{
+    position: absolute;
+    width: 13em;
+    top: 35em;
+}
+.background{
+    background-image: url(/img/bg-pattern-2.svg);
+    background-size: 19em;
+    background-position-x: 5em;
+    background-repeat: no-repeat;
+    border-radius: 1em 1em 0em 0em;
+    max-width: 100%;
+    width: 100%;
+    height: 26em;
+    background-color: #191826;
+}
+.background2{
+    margin-top: -1em;
+    border-radius:1em ;
+    width: 100%;
+    height: 34.5em;
+    background-color: #FA7453;
+}
+.aboutprice{
+    margin: 3em 2em 3em 2em;
+}
+.EQ{
+    color: white;
+    font-size: 2em;
+}
+.about2{
+    font-size: 1em;
+    color: white;
+}
+.price{
+    font-weight: 700;
+    display: inline;
+    font-size: 4em;
+    color: white;
+}
+.month{
+    color: white;
+    font-size: 1em;
+    display: inline;
+}
+.buttondiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    margin: 0em 1.4em 1em 1.4em;
+
+    border: none;
+    border-radius: 1em;
+    width: 18.5em;
+    height: 3.8em;
+    font-size: 1em;
+    background-repeat: no-repeat;
+}
+.apple{
+    background-image: url(/img/icon-apple.svg);
+    
+    background-position-x: 4.5em;
+    background-position-y: 1.1em ;
+    background-color: #191826;
+    color: white;
+
+
+}
+.android{
+    background-image: url(/img/icon-android.svg);
+    background-position-x: 3.8em;
+    background-position-y: 1.1em ;
+}
+footer{
+    margin: 3.9em 1.5em 0em 1.5em;
+}
+.socialLogo{
+    margin-top: 3em;
+    display: flex;
+}
+.socialLogo img{
+    margin-right: 1em;
+}
+footer span{
+    font-weight: bold;
+}
+}
+@media screen and (min-width: 760px){
+
+
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
+        position: relative;
+        background-image: url(/img/bg-main-tablet.png);
+        background-position-x: -16em;
+        background-position-y: -11em;
+    }
+    
+    .section1{
+        width: 32.5em;
+        height: 20.7em;
+    }
+
+    
+    .mainText{
+        font-size: 4em;
+        margin-bottom: 0.4em;
+    }
+    .section2{
+        display: block;
+    }
+    .div1{
+        display: block;
+
+    }
+    .phone{
+        left: 4em;
+        width: 16em;
+        height: auto;
+    }
+    .background{
+        width: 100%;
+        margin: 0em 2em 0em 2em;
+        min-width: 43em;
+        max-width: 94%;
+        border-radius: 1em;
+        height: 37.5em;
+        background-position-y: 0em;
+        background-position-x: 0em;
+    }
+    .background2{
+        margin: 0em 2em 0em 2em;
+        top: 49em;
+        left: 12em;
+        position: absolute;
+        width: 24.9em;
+        height: 34em;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 43.5em;
+        margin: 16em 2em 0em 2em;
+
+    }
+    .footerText{
+        width: 22.8em;
+    }
+    .logo2{
+        position: absolute;
+        top: 90em;
+    }
+
+@media screen and (min-width: 1200px){
+
+body{
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(/img/bg-main-desktop.png);
+    background-position-x: -20em;
+    background-position-y: -18em;
+}
+.Logo{
+    margin-left: 8em;
+}
+.section1{
+    margin-left: 8em;
+    width: 65em;
+}
+.mainText{
+    font-size: 5.5em;
+
+}
+.section1 p{
+    margin-right: 15em;
+    font-size: 1.25em;
+}
+.pattdiv{
+    position: relative;
+    left: 0;
+}
+.section2{
+
+    margin-left: 6.3em;
+    margin-right: 10.3em;
+}
+.background{
+    width: 69em;
+    height: 37.5em;
+    background-position-x: 21em;
+    background-position-y: 0em ;
+}
+.phone{
+    left: 19em;
+}
+.background2{
+    left: 46em;
+}
+footer{
+    margin-left: 8em;
+    margin-right: 8em;
+    
+}
+.socialLogo{
+    margin-right: -27em;
+    cursor: pointer;
+}
+.fb:active{
+    filter: opacity(0.4);
+}
+span{
+    cursor: pointer;
+}
+}
+button{
+    cursor: pointer;
+    
+}
+.apple:active{
+    background-color: #66E2DC;
+}
+.android:active{
+    background-color: #FFB964;
+}}
+.pattdiv{
+    position: relative;
+        right: 0px;
+        
+    }
+    .pattern1{
+        position: absolute;
+        background-image: url();
+    }
